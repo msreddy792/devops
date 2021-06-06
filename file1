@@ -1,8 +1,0 @@
-chmod 400 devops.pem
-ec2-3-135-240-237.us-east-2.compute.amazonaws.com
-ssh -i "devops.pem" ec2-user@ec2-3-135-240-237.us-east-2.compute.amazonaws.com
-
-ssh -i "ec2instance-key.pem" ec2-user@ec2-3-142-47-169.us-east-2.compute.amazonaws.com
-
-sudo su -
-yum install git 
